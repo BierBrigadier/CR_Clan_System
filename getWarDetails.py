@@ -5,7 +5,8 @@ import pprint
 url = "https://api.royaleapi.com/clan/9QPRPQY/warlog"
 
 headers = {
-    'auth': "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mzc0LCJpZGVuIjoiMjAyMzQ5NTY3ODgxMTE3Njk2IiwibWQiOnt9fQ.Ks-DTcWLHyV-REEeCnzXT6GT-rsrsVGiOMH-9gvpENI"
+    'auth': "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mzc0LCJpZGVuIjoiMjAyMzQ5NTY3ODgxMTE3Njk2IiwibWQiOnt9LCJ0cyI6MTUyODEyMzg1MDE2N30.Pqy-JmrMHp-oiNyp9Gra6dTTxnj6ue_66EA7a5oLj20
+"
 }
 response = requests.request("GET", url, headers=headers)
 data = response.json()
